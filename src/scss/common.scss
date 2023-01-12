@@ -1,0 +1,101 @@
+// Заголовки, загальні БЕМ блоки та інше...
+h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  color: $grey-1-color;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 110%;
+  color: $grey-1-color;
+  margin-bottom: 20px;
+}
+
+.h3-bold {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  color: $grey-1-color;
+}
+
+.main-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: $grey-2-color;
+}
+
+.list-disc {
+  margin-left: 15px;
+  li {
+    list-style-image: url("../img/list-disc.png");
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: $grey-2-color;
+    padding-left: 12px;
+  }
+}
+
+.list-check {
+  width: fit-content;
+  margin-left: 20px;
+  li {
+    list-style-image: url("../img/list-check.png");
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    color: $grey-2-color;
+    padding-left: 10px;
+  }
+}
+
+.columns-2 {
+  column-count: 2;
+  column-gap: 90px;
+
+  @media (max-width: $tablet) {
+    column-count: 1;
+    column-gap: 0;
+  }
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.unactive-rating {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: #B9B9B9;
+}

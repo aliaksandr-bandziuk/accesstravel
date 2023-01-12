@@ -1,0 +1,11 @@
+.overview-img {
+  width: 100%;
+  object-fit: contain;
+  aspect-ratio: 1111 / 518;
+}
+
+.similar-tours {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr) ) ;
+  grid-gap: 30px;
+}
