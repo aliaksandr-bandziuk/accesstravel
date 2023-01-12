@@ -169,6 +169,8 @@ img {
 // Підключення стилів загальних елементів проекту
 @import "common";
 @import "components/tour";
+@import "components/ticket";
+@import "components/paging";
 
 // Підключення стилів окремих блоків
 @import "header";
