@@ -15,9 +15,9 @@
 	width: 100%;
 	cursor: default;
 	text-align: left;
-	border: 1px solid #eee;
-	padding: rem(10) rem(15);
-	border-radius: rem(5);
+	// border: 1px solid #eee;
+	// padding: rem(10) rem(15);
+	// border-radius: rem(5);
 	position: relative;
 	._spoller-init & {
 		cursor: pointer;
@@ -28,8 +28,8 @@
 			right: 10px;
 			top: 50%;
 			background-color: #000;
-			height: 2px;
-			width: 15px;
+			height: 1px;
+			width: 6px;
 			transition: transform 0.5s ease 0s;
 		}
 		&::before {
@@ -83,7 +83,7 @@
 }
 // Контент спойлера
 .spollers__body {
-	padding: rem(20);
-	border-radius: rem(5);
-	border: 1px solid #eee;
+	// padding: rem(20);
+	// border-radius: rem(5);
+	// border: 1px solid #eee;
 }

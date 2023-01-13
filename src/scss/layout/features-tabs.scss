@@ -74,23 +74,112 @@
 .filter {
   // flex: 0 1 auto;
 }
-.spollers {
 
-		// .spollers__item
+.spollers-filter {
 
-		&__item {
-		}
-
-		// .spollers__title
-
-		&__title {
-		}
-
-		// .spollers__body
-
-		&__body {
-		}
 }
+.spollers-filter__item {
+
+}
+.spollers-filter__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: #5A5A5A;
+
+}
+.spollers-filter__body {
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  .spoller__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    color: #828282;
+  }
+  .spoller__tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+
+  }
+  .spoller__tag {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    color: #828282;
+    padding: 5px 8px;
+    background-color: rgba(219, 219, 219, 0.5);
+    border-radius: 20px;
+  }
+
+}
+
+.spollers-filter__checkboxes {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #858585;
+
+  .checkbox-label {
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    -webkit-appearance:none;
+    appearance:none;
+    position:relative;
+    display:inline-block;
+    line-height: 1em;
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    margin-bottom: 12px;
+    margin-right: 18px;
+    vertical-align:top;
+    text-align:center;
+    border: 2px solid #CDCDCD;
+    border-radius: 5px;
+    transition:all 0.5s;
+  }
+
+  input[type="checkbox"]:focus,
+  input[type="radio"]:focus {
+    outline:none;
+    // box-shadow:0 0 0.25em 0.125em #08F;
+  }
+
+  input[type="checkbox"]:before,
+  input[type="radio"]:before {
+    content:"";
+    position:relative;
+    display:block;
+    transition:all 0.5s;
+  }
+
+  input[type="checkbox"]:not(.switch):before {
+    content: url("../../img/check.png");
+    // top:-0.1em;
+    left: 2px;
+    width: 13px;
+    height: 10px;
+    transform:scale(0);
+    transform-origin:50% 65%;
+  }
+
+  input[type="checkbox"]:not(.switch):checked {
+    background-color: $corp-color;
+    border-color: $corp-color;
+  }
+  input[type="checkbox"]:not(.switch):checked:before {
+    transform:scale(1.25);
+  }
+}
+
 .tickets {
 
 		// .tickets__wrapper
