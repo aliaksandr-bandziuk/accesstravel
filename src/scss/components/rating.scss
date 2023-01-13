@@ -1,0 +1,25 @@
+.rating {
+  display: flex;
+  gap: 13px;
+  align-items: start;
+
+  // .rating__stars
+  &__stars {
+    span {
+      &:not(.checked) {
+        color: #BCBCBC;
+      }
+    }
+  }
+
+  // .rating__text
+  &__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #5A5A5A;
+  }
+}
+.checked {
+  color: #FFC107;
+}

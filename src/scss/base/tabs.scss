@@ -3,6 +3,11 @@
 	&__navigation {
 		display: flex;
 		border-bottom: 1px solid #DBDBDB;
+
+		@media (max-width: 980px) {
+			flex-wrap: wrap;
+			border-bottom: none;
+		}
 	}
 	// .tabs__title
 	&__title {
@@ -26,6 +31,10 @@
 				height: 2px;
 				background-color: #1AC9FF;
 			}
+		}
+
+		@media (max-width: 980px) {
+			width: 100%;
 		}
 	}
 	// .tabs__content

@@ -9,6 +9,7 @@
 
   @media (max-width: $mobile) {
     flex-direction: column-reverse;
+    gap: 20px;
   }
 
   // .main-info__image
@@ -36,13 +37,6 @@
     }
   }
 }
-.breadcrumbs {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: $grey-3-color;
-  margin-bottom: 30px;
-}
 .city-title {
   font-weight: 500;
   font-size: 24px;
@@ -50,31 +44,31 @@
   color: $grey-1-color;
   margin-bottom: 16px;
 }
-.rating {
-  display: flex;
-  gap: 13px;
-  align-items: start;
+// .rating {
+//   display: flex;
+//   gap: 13px;
+//   align-items: start;
 
-  // .rating__stars
-  &__stars {
-    span {
-      &:not(.checked) {
-        color: #BCBCBC;
-      }
-    }
-  }
+//   // .rating__stars
+//   &__stars {
+//     span {
+//       &:not(.checked) {
+//         color: #BCBCBC;
+//       }
+//     }
+//   }
 
-  // .rating__text
-  &__text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 143%;
-    color: #5A5A5A;
-  }
-}
-.checked {
-  color: #FFC107;
-}
+//   // .rating__text
+//   &__text {
+//     font-weight: 500;
+//     font-size: 14px;
+//     line-height: 143%;
+//     color: #5A5A5A;
+//   }
+// }
+// .checked {
+//   color: #FFC107;
+// }
 
 .description {
   font-weight: 400;

@@ -1,0 +1,28 @@
+.tour-intro {
+
+  // .tour-intro__data
+
+  &__data {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+
+
+.location {
+}
+
+.location-link--black {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  text-transform: capitalize;
+  color: $grey-1-color;
+
+  &::before {
+    content: url("../../img/icon-location-black.svg");
+    margin-right: 6px;
+  }
+}

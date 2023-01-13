@@ -168,6 +168,8 @@ img {
 
 // Підключення стилів загальних елементів проекту
 @import "common";
+@import "./components/breadcrumbs";
+@import "components/rating";
 @import "components/tour";
 @import "components/ticket";
 @import "components/paging";
@@ -176,7 +178,10 @@ img {
 @import "header";
 @import "layout/city-promo";
 @import "layout/features-tabs";
+@import "layout/breadcrumbs-block";
+@import "layout/tour-intro";
 @import "footer";
 
 // Підключення стилів окремих сторінок
 @import "home";
+

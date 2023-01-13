@@ -1,4 +1,12 @@
 // Заголовки, загальні БЕМ блоки та інше...
+h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  color: $grey-1-color;
+}
+
 h2 {
   font-style: normal;
   font-weight: 500;
@@ -107,6 +115,10 @@ h3 {
 .overview-slider {
   width: 96%;
   overflow: hidden;
+
+  @media (max-width: 930px) {
+    width: 100%;
+  }
 }
 
 .p-rel {
@@ -118,4 +130,10 @@ h3 {
   height: 1px;
   background-color: #E3E3E3;
   // margin-bottom: 22px;
+}
+
+.line-vertical {
+  width: 1px;
+  height: 14px;
+  background-color: #5A5A5A;
 }
