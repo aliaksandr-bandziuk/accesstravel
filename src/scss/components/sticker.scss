@@ -1,0 +1,16 @@
+.sticker {
+  background-image: url("../../img/sticker.png");
+  background-repeat: no-repeat;
+  width: 146px;
+  height: 35px;
+  color: $white-color;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 14px;
+  left: 0;
+}

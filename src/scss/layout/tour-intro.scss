@@ -1,7 +1,12 @@
 .tour-intro {
 
-  // .tour-intro__data
+  .tour-intro__wrapper {
+    padding-bottom: 45px;
+    display: flex;
+    // gap: 30px;
+  }
 
+  // .tour-intro__data
   &__data {
     display: flex;
     align-items: center;
@@ -25,4 +30,114 @@
     content: url("../../img/icon-location-black.svg");
     margin-right: 6px;
   }
+}
+
+.order {
+  background: #F5F5F5;
+  border-radius: 6px;
+  padding: 65px 22px 25px 22px;
+  flex: 0 1 40%;
+  position: relative;
+
+  // .order__price
+  &__price {
+    .price-text {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 144%;
+      text-transform: lowercase;
+      color: #5A5A5A;
+
+      span {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+      }
+    }
+
+    .guarantee {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 125%;
+      color: #828282;
+    }
+  }
+
+  // .order__select
+
+  &__select {
+    p {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      text-transform: capitalize;
+      color: #5A5A5A;
+    }
+  }
+
+  // .order__content
+
+  &__content {
+
+    &-strong {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 143%;
+      color: #5A5A5A;
+    }
+    &-thin {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 143%;
+      color: #858585;
+    }
+  }
+}
+
+
+
+
+input[type="date"] {
+  background-color: #fff;
+  padding: 11px 60px 11px 44px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #828282;
+  border-radius: 6px;
+  outline: none;
+  position: relative;
+  width: 100%;
+  margin-bottom: 6px;
+  height: 43px;
+}
+::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 13px;
+  left: 18px;
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url("../../img/icon-calendar.png") no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+
+.send-form {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: linear-gradient(270deg, #1BBEF2 -1.4%, #43D9E8 100%), linear-gradient(89.85deg, #FBA94D -27.45%, #FF8600 99.81%);
+  border-radius: 50px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 11px;
 }

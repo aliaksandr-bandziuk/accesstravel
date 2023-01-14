@@ -106,7 +106,7 @@ flsForms.formFieldsInit({
 // flsForms.formRating();
 
 /* Модуль роботи з select. */
-// import './libs/select.js'
+import './libs/select.js'
 
 /* Модуль роботи з календарем */
 // import './files/forms/datepicker.js'
@@ -229,4 +229,5 @@ import * as flsScroll from "./files/scroll/scroll.js";
 import "./files/script.js";
 import "./files/header.js";
 import "./files/swiper-tags.js";
+import "./files/swiper-gallery.js";
 //============================================================================================================================================================================================================================================
