@@ -154,7 +154,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 40px;
+		// gap: 40px;
+		gap: 110px;
 		position: relative;
 		top: 0;
 		width: auto;
@@ -192,37 +193,41 @@
   //  @media (max-width: 500px) {
   //     width: 80%;
   //  }
-
-		// .search__input
-		&__input {
-      // background-color: $color-header;
-      border: 1px solid #DBDBDB;
-      border-radius: 6px;
-      padding: 11px 9px 11px 30px;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 120%;
-      color: $grey-1-color;
-      width: 158px;
-			height: 30px;
-			// position: relative;
-			transition: all .3s ease-in-out;
-
-			&:focus {
-				outline: none;
-				// position: absolute;
-				// top: 0;
-				// width: 500px;
-			}
-		}
-
-		// .search__icon
-		&__icon {
-      position: absolute;
-      top: 9px;
-      left: 11px;
-		}
 }
+
+.search__input-block {
+	position: absolute;
+	top: -15px;
+	left: -70px;
+}
+
+	// .search__input
+	.search__input {
+		// background-color: $color-header;
+		border: 1px solid #DBDBDB;
+		border-radius: 6px;
+		padding: 11px 9px 11px 30px;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 120%;
+		color: $grey-1-color;
+		width: 158px;
+		height: 30px;
+
+		transition: all .3s ease-in-out;
+
+		&:focus {
+			outline: none;
+			width: 340px;
+		}
+	}
+
+	// .search__icon
+	.search__icon {
+		position: absolute;
+		top: 9px;
+		left: 11px;
+	}
 
 /* clears the ‘X’ from Internet Explorer */
 input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
