@@ -85,6 +85,12 @@ h4 {
   }
 }
 
+.breadcrumbs-main {
+  display: flex;
+  gap: 3px;
+  align-items: baseline;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }

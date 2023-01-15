@@ -1,6 +1,10 @@
 .tour-tabs__navigation {
   display: flex;
   gap: 10px;
+
+  @media (max-width: 820px) {
+    flex-direction: column;
+  }
 }
 
 .tour-tabs__title {
