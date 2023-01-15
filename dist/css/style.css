@@ -1131,7 +1131,7 @@ h4 {
 }
 
 .tour__link a::after {
-  content: url("../../img/arrow-right.svg");
+  content: url("../img/arrow-right.svg");
   margin-left: 9px;
 }
 
@@ -1214,7 +1214,7 @@ h4 {
 }
 
 .ticket .more-btn::after {
-  content: url(../../img/arrow-right-lil.svg);
+  content: url(../img/arrow-right-lil.svg);
   margin-left: 4px;
 }
 
@@ -1468,12 +1468,12 @@ h4 {
 }
 
 .button-copy::before {
-  content: url("../../img/icon-copy.svg");
+  content: url("../img/icon-copy.svg");
   margin-right: 10px;
 }
 
 .button-share::before {
-  content: url("../../img/icon-share.svg");
+  content: url("../img/icon-share.svg");
   margin-right: 10px;
 }
 
@@ -1910,7 +1910,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .location-link::before {
-  content: url("../../img/icon-location.svg");
+  content: url("../img/icon-location.svg");
   margin-right: 17px;
 }
 
@@ -2088,7 +2088,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .spollers-filter__checkboxes input[type=checkbox]:not(.switch):before {
-  content: url("../../img/check.png");
+  content: url("../img/check.png");
   left: 2px;
   width: 13px;
   height: 10px;
@@ -2165,7 +2165,7 @@ input[type=search]::-webkit-search-results-decoration {
 }
 
 .location-link--black::before {
-  content: url("../../img/icon-location-black.svg");
+  content: url("../img/icon-location-black.svg");
   margin-right: 6px;
 }
 
@@ -2239,7 +2239,7 @@ input[type=date] {
 }
 
 .no-webp ::-webkit-calendar-picker-indicator{
-  background: url("../../img/icon-calendar.png") no-repeat; }
+  background: url("../img/icon-calendar.png") no-repeat; }
 
 ::-webkit-calendar-picker-indicator {
   position: absolute;
@@ -2445,7 +2445,7 @@ input[type=date] {
 }
 
 .responce__title::before {
-  content: url("../../img/icon-response.png");
+  content: url("../img/icon-response.png");
   margin-right: 7px;
 }
 
@@ -2845,4 +2845,4 @@ input[type=date] {
 
 .webp .sticker{ background-image: url(../img/sticker.webp); }
 
-.webp ::-webkit-calendar-picker-indicator{ background: url(../../img/icon-calendar.webp) no-repeat; }
+.webp ::-webkit-calendar-picker-indicator{ background: url(../img/icon-calendar.webp) no-repeat; }
