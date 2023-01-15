@@ -1414,7 +1414,7 @@ h4 {
  */
 
 .no-webp .sticker{
-  background-image: url("../../img/sticker.png"); }
+  background-image: url("../img/sticker.png"); }
 
 .sticker {
   background-repeat: no-repeat;
@@ -2843,6 +2843,6 @@ input[type=date] {
   }
 }
 
-.webp .sticker{ background-image: url(../../img/sticker.webp); }
+.webp .sticker{ background-image: url(../img/sticker.webp); }
 
 .webp ::-webkit-calendar-picker-indicator{ background: url(../../img/icon-calendar.webp) no-repeat; }
