@@ -149,7 +149,7 @@ img {
 }
 
 .select__body:before {
-  content: url("../../../img/icon-user.png");
+  content: url("../img/icon-user.png");
   position: absolute;
   top: 12px;
   left: 18px;
