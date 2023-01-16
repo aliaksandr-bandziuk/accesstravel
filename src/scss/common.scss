@@ -48,6 +48,15 @@ h4 {
   color: $grey-2-color;
 }
 
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: 540px) {
+    display: block;
+  }
+}
+
 .list-disc {
   margin-left: 15px;
   li {
@@ -189,4 +198,8 @@ h4 {
 }
 .line-10 {
   width: 10%;
+}
+
+.hidden {
+  display: none;
 }

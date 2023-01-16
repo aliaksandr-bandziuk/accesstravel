@@ -23,6 +23,24 @@
       gap: 10px;
     }
   }
+
+  &__share {
+    position: relative;
+
+    .share-btn {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      color: #5A5A5A;
+
+      &::before {
+        content: url("../../img/icon-upload.svg");
+        margin-right: 8px;
+      }
+    }
+  }
 }
 
 
