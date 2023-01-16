@@ -2294,6 +2294,10 @@ input[type=date] {
   padding-bottom: 11px;
 }
 
+.tour-tabs {
+  margin-bottom: 100px;
+}
+
 .tour-tabs__navigation {
   display: -webkit-box;
   display: -ms-flexbox;
