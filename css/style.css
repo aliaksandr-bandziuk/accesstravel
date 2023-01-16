@@ -864,6 +864,15 @@ h4 {
   color: #858585;
 }
 
+.flex-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .list-disc {
   margin-left: 15px;
 }
@@ -1009,6 +1018,10 @@ h4 {
 
 .line-10 {
   width: 10%;
+}
+
+.hidden {
+  display: none;
 }
 
 .breadcrumbs {
@@ -1463,8 +1476,12 @@ h4 {
   padding: 20px;
   width: 156px;
   position: absolute;
-  top: -10px;
-  right: -10px;
+  top: 25px;
+  left: -90px;
+  z-index: 10;
+  -webkit-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+  transition: all ease-in-out 0.2s;
 }
 
 .button {
@@ -2173,6 +2190,28 @@ input[type=search]::-webkit-search-results-decoration {
   gap: 20px;
 }
 
+.tour-intro__share {
+  position: relative;
+}
+
+.tour-intro__share .share-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #5A5A5A;
+}
+
+.tour-intro__share .share-btn::before {
+  content: url("../../img/icon-upload.svg");
+  margin-right: 8px;
+}
+
 .location-link--black {
   font-weight: 500;
   font-size: 14px;
@@ -2818,6 +2857,16 @@ input[type=date] {
 
   .gallery-main .swiper-button-next {
     right: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .flex-wrapper {
+    display: block;
+  }
+
+  .buttons {
+    left: 0;
   }
 }
 
