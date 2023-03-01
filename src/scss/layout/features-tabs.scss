@@ -24,6 +24,10 @@
 
 .swiper-tags {
   position: relative;
+
+  .swiper-slide {
+    width: fit-content;
+  }
 }
 
 .slide-link {

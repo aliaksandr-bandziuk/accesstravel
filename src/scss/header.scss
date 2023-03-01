@@ -140,8 +140,8 @@
 		 flex-direction: column;
 		 justify-content: start;
 		 align-items: start;
-		 gap: 15px;
-		 padding-left: 30px;
+		 gap: 40px;
+		 padding-left: 100px;
 	}
 
 	&-link {
@@ -161,8 +161,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		// gap: 40px;
-		gap: 110px;
+		gap: 100px;
 		position: relative;
 		top: 0;
 		width: auto;
@@ -195,9 +194,9 @@
 .menu-search {
   // margin-left: clamp(0rem, -1.955rem + 9.77vw, 5.375rem);
 
-	@media (max-width: 1010px) {
-		display: none;
-	}
+	// @media (max-width: 1010px) {
+	// 	display: none;
+	// }
 }
 .search {
   position: relative;
@@ -211,6 +210,10 @@
 	position: absolute;
 	top: -15px;
 	left: -70px;
+
+	@media (max-width: 1010px) {
+		left: 0;
+	}
 }
 
 	// .search__input
@@ -230,7 +233,11 @@
 
 		&:focus {
 			outline: none;
-			width: 345px;
+			width: 335px;
+
+			@media (max-width: 500px) {
+				width: 200px;
+			}
 		}
 	}
 

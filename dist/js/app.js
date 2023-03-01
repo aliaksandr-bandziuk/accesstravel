@@ -2390,26 +2390,8 @@
         new Swiper(".swiper-tags", {
             direction: "horizontal",
             loop: true,
-            slidesPerView: 1.8,
+            slidesPerView: "auto",
             spaceBetween: 10,
-            breakpoints: {
-                480: {
-                    slidesPerView: 2.6,
-                    spaceBetween: 10
-                },
-                500: {
-                    slidesPerView: 3.6,
-                    spaceBetween: 10
-                },
-                930: {
-                    slidesPerView: 5.07,
-                    spaceBetween: 10
-                },
-                1100: {
-                    slidesPerView: 7,
-                    spaceBetween: 10
-                }
-            },
             navigation: {
                 nextEl: ".nex-btn"
             }
