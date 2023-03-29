@@ -18,8 +18,8 @@
 
     img {
       width: 100%;
-      object-fit: contain;
-      aspect-ratio: 54 / 35;
+      object-fit: cover;
+      aspect-ratio: 3/2;
     }
   }
 
@@ -81,22 +81,40 @@
     margin-bottom: 15px;
   }
 
+  .moreText {
+    display: none;
+  }
 
-  span{
-    color: $corp-color;
-    svg {
-      width: 10px;
-      height: 10px;
-      path {
-        fill: #1BBEF2;
-      }
-    }
-    &:last-child {
+  .text.show-more .moreText {
+    display: inline;
+    transition: display, 0.3s, ease-in;
+  }
+
+  .text.show-more .dots {
+    display: none;
+  }
+
+  button {
+    span {
+      color: $corp-color;
+
       svg {
-        transform: rotate(180deg);
+        width: 10px;
+        height: 10px;
+
+        path {
+          fill: #1BBEF2;
+        }
       }
+
+      // &:last-child {
+      //   svg {
+      //     transform: rotate(180deg);
+      //   }
+      // }
     }
   }
+
 }
 
 .location-link {

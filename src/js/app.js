@@ -53,7 +53,7 @@ flsFunctions.tabs();
 Документація: https://template.fls.guru/template-docs/modul-pokazat-eshhjo.html
 Сніппет (HTML): showmore
 */
-flsFunctions.showMore();
+// flsFunctions.showMore();
 
 /*
 Модуль "Ефект хвиль"
@@ -231,4 +231,5 @@ import "./files/header.js";
 import "./files/swiper-tags.js";
 import "./files/swiper-gallery.js";
 import "./files/popupShare.js";
+import "./files/readMore.js";
 //============================================================================================================================================================================================================================================

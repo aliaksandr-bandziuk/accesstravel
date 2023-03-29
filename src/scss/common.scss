@@ -203,3 +203,8 @@ h4 {
 .hidden {
   display: none;
 }
+
+.svg-rotate {
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}

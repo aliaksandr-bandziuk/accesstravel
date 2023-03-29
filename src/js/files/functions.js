@@ -468,7 +468,7 @@ export function showMore() {
 			const hiddenHeight = getHeight(showMoreBlock, showMoreContent);
 			if (matchMedia.matches || !matchMedia) {
 				if (hiddenHeight < getOriginalHeight(showMoreContent)) {
-					_slideUp(showMoreContent, 0, hiddenHeight);
+					_slideUp(showMoreContent, 0, showMoreBlock.classList.contains('_showmore-active') ? getOriginalHeight(showMoreContent) : hiddenHeight);
 					showMoreButton.hidden = false;
 				} else {
 					_slideDown(showMoreContent, 0, hiddenHeight);
@@ -631,7 +631,7 @@ export function customCursor(isShadowTrue) {
 export function FLS(message) {
 	setTimeout(() => {
 		if (window.FLS) {
-			// console.log(message);
+			console.log(message);
 		}
 	}, 0);
 }
